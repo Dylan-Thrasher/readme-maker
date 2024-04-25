@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
   const choice = (license);
   switch (choice) {
     case 'MIT':
-      return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+      return `[License: MIT](https://opensource.org/licenses/MIT)`
       break;
 
     case "ISC":
@@ -76,7 +76,7 @@ function generateMarkdown(data) {
   ## Tests 
   ${data.tests}
   ## Questions
-  For any questions, please reference my repositories at github.com/${data.github} or email me at ${data.email}
+  For any questions, please reference my repositories at [${data.github}'s Github](https://github.com/${data.github}) or email me at ${data.email}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 `;
