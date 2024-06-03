@@ -1,7 +1,7 @@
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-  # Readme-maker
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  # Social_Network_API
   ## Description
-  The project creates a readme from prompt answers given in the user's terminal
+  This is an API designed to be utilized for a Social Network website
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,15 +10,15 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  when opening the maker folder for the first time, in your terminal that has node downloaded, make sure to enter npm init -y and then npm i inquirer@8.2.4, then run node index.js
+  After cloning the repository, please make sure that you have node package manager installed along with insomnia and mongoDB. 
   ## Usage
-  When using node index.js you will be prompted with a series of questions, this will fill out your readme file's relevant fields
+  Please refer to the Video Link here for demonstration on how to use the project.
   ## License
   MIT
   ## Contributing
-  Markdown Badges code provided by https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+  
   ## Tests 
-  The current readme is a test example, along with a video that was submitted to the grader reviewing this.
+  Please refer to the Video Link here for test examples
   ## Questions
   For any questions, please reference my repositories at [Dylan-Thrasher's Github](https://github.com/Dylan-Thrasher) or email me at thrasher_dylan@yahoo.com
 
